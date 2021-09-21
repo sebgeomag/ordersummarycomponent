@@ -3,14 +3,32 @@ body {
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-color: hsl(225, 100%, 94%);
+	font-family: 'Red Hat Display', sans-serif;
 }
 
-#main{
-	width: auto;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
+h1{
+	font-weight: bold;
+}
+
+p {
+	font-size: 16px;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+	border-radius: 25px 25px 0px 0px;
+}
+
+.inner{
+	border-radius: 25px;
 	text-align: center;
+	background-color: white;
 }
 
 
